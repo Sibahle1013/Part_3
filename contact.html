@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--navigation bar internal styling-->
+
+    <nav style="background-color: hotpink; padding: 25px; text-align: center;">
+      <a href="samhle deserts.html" style="color: white; text-decoration: none; margin: 40px; font-weight: bold;">
+        <i class="fas fa-home"></i> Home
+      </a>
+      <a href="contact.html" style="color: white; text-decoration: none; margin: 40px; font-weight: bold;">
+        <i class="fas fa-envelope"></i> Contact Us
+      </a>
+      <a href="services provided.html" style="color: white; text-decoration: none; margin: 40px; font-weight: bold;">
+        <i class="fas fa-concierge-bell"></i> Services Provided
+      </a>
+      <a href="shopping.html" style="color: white; text-decoration: none; margin: 40px; font-weight: bold;">
+        <i class="fas fa-shopping-cart"></i> Shopping
+      </a>
+ <a href="Sign-Up.html" style="color: white; text-decoration: none; margin: 40px; font-weight: bold;">
+        <i class="fa-solid fa-arrow-right-to-bracket"></i> Sign-Up
+      </a>
+
+    </nav>
+    
+    <title>contact details</title> 
+    <link rel="stylesheet" href="css/contact.css">
+     <style>
+    #success-message {
+      color: green;
+      text-align: center;
+      font-weight: bold;
+      display: none;
+      margin-top: 20px;
+    }
+  </style>
+    </head>
+<body>
+  <div class="contact-container">
+  <form action="" class="contact-left" id="contact-form">
+    <div class="container-left-title">
+      <h2>GET IN TOUCH</h2>
+      <hr>
+    </div>
+    <input type="text" name="name" placeholder="YOUR Name" class="contact-inputs" required>
+    <input type="email" name="email" placeholder="YOUR email" class="contact-inputs" required>
+    <textarea name="message" placeholder="How was your experience at SAMHLE DESERTS!" class="contact-inputs" required></textarea>
+    <button type="submit" style="background-color: hotpink">SUBMIT</button>
+  </form>
+
+  <!-- Success message -->
+   <span style="color: green;">&#10004;</span>
+       <p id="success-message"> message sent sucessful,we'll get back to you shortly.</p>
+</div>
+
+<script src="JavaScript/contact.js" defer ></script>
+      <div class="contact-center">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3575
+    .7086019315175!2d28.141553175419713!3d-26.335933676995747!2m3!1f0!2f0!3f0!
+    3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e951b6ef46c5939%3A0xbcce61338764f01d!2
+    s1013%20Kgotso%20St%2C%20Twala%2C%20Katlehong%2C%201431!5e0!3m2!1saf!2sza!4v1743636898
+    988!5m2!1saf!2sza" width="500" height="500" style="border:0;" allowfullscreen="" loading="lazy" 
+    referrerpolicy="no-referrer-when-downgrade"></iframe>
+   </div>
+    </div>
+    <!--payment-form internal stling-->
+    <style>
+  button {
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 2px;
+    padding: 15px 50px;
+    display: block;
+    margin: 20px auto;
+  }
+
+  form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+
+  input,
+  select {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+  }
+
+  #success-message {
+    text-align: center;
+    color: green;
+    font-weight: bold;
+    display: none;
+  }
+</style>
+
+<div class="cart-items">
+  <div class="container">
+    <div class="right">
+      <h3 style="font-family:'Courier New', Courier, monospace">Payment Details</h3>
+
+      <form id="payment-form">
+        Accepted cards <br>
+        <img src="IMAGES/capitec.jpeg" width="100" height="100">
+        <img src="IMAGES/tymebank.jpeg" width="100" height="100"><br>
+
+        Credit card number
+        <input type="text" id="card-number" placeholder="Enter card number" required><br>
+
+        CVV
+        <input type="text" id="cvv" placeholder="CVV" required><br>
+
+        EXP MONTH
+        <input type="text" id="exp-month" placeholder="Enter month" required><br>
+
+        EXP YEAR
+        <select id="exp-year" required>
+          <option value="">Choose year...</option>
+          <option>2025</option>
+          <option>2026</option>
+          <option>2027</option>
+          <option>2028</option>
+        </select>
+
+        <button type="submit" style="background-color: lightpink;">Check Out</button>
+      </form>
+
+      <p id="success-message">✅ Payment successful! Thank you for your purchase.</p>
+    </div>
+  </div>
+</div>
+
+  <!-- testimonials section -->
+<section class="testimonials">
+  <h2>What Our Customers Say</h2>
+  <div class="testimonial-container" id="testimonialContainer">
+
+    <div class="testimonial-card active">
+      <i class="fa fa-quote-left quote-icon"></i>
+      <p>"They treat you like a king with a perfect customer service"</p>
+      <span class="customer">– Kgotso.M</span>
+    </div>
+
+    <div class="testimonial-card">
+      <i class="fa fa-quote-left quote-icon"></i>
+      <p>"Best cake ever definitely coming back for another one, my baby had an awesome birthday with his friends at daycare"</p>
+      <span class="customer">– Thabo L.</span>
+    </div>
+
+    <div class="testimonial-card">
+      <i class="fa fa-quote-left quote-icon"></i>
+      <p>"The slush puppies are awesome. Love the variety of ice-creams available. My advice: visit as often as you can guyzin!"</p>
+      <span class="customer">– Wandile Luthando.R</span>
+    </div>
+
+<div class="testimonial-card">
+      <i class="fa fa-quote-left quote-icon"></i>
+      <p>"spoil your girl-friend for valentines"</p>
+      <span class="customer">– Jabulani.M</span>
+    </div>
+
+    <div class="testimonial-card">
+      <i class="fa fa-quote-left quote-icon"></i>
+      <p>"Visit with your friends and family for deserts"</p>
+      <span class="customer">– sibahle.Zwane</span>
+    </div>
+
+<div class="testimonial-card">
+      <i class="fa fa-quote-left quote-icon"></i>
+      <p>"customer service is amazing!"</p>
+      <span class="customer">– Asanda.Walaza</span>
+    </div>
+
+    <div class="testimonial-card">
+      <i class="fa fa-quote-left quote-icon"></i>
+      <p>"quality of ice-cream is amazing. </p>
+      <span class="customer">– samukelo Mlambo</span>
+    </div>
+
+    <div class="testimonial-card">
+      <i class="fa fa-quote-left quote-icon"></i>
+      <p>"The slush puppies are awesome. Love the variety of ice-creams available. My advice: visit as often as you can guyzin!"</p>
+      <span class="customer">–  Luthando.R</span>
+    </div>
+  </div>
+
+  <div class="testimonial-controls">
+    <button id="prevBtn">❮</button>
+    <button id="nextBtn">❯</button>
+  </div>
+</section>
+
+<h2 style="text-align: center; color: pink;">TRADING HOURS!</h2>
+<img src="IMAGES/trading hours.jpg" width="350" height="350">\
+
+<!-- newsletter section -->
+<section class="newsletter">
+  <div class="newsletter-container">
+    <h3 id="newsletter-heading">Stay in the sweet loop with Samhle Deserts</h3>
+    <form class="newsletter-form" id="newsletter-form">
+      <input type="email" id="email-input" placeholder="Enter your email" required>
+      <button type="submit">Subscribe</button>
+    </form>
+    <p id="subscribe-message" style="display: none; color: green;">✅ You’re subscribed!</p>
+  </div>
+</section>
+
+<!--Footer section styling-->
+        <footer class="social-footer">
+          <h2>Follow Us</h2>
+          <div class="social-icons">
+            <a href="https://www.facebook.com/samhlecakes/posts/samhle-cakes-0814057809/2944856582257230/" title="Facebook" class="fb"><i class="fab fa-facebook-f"></i> Facebook</a>
+            <a href="tel:0814057809" title="Phone" class="tel"><i class="fas fa-phone"></i> Phone</a>
+            <a href="https://www.instagram.com/samhle_desserts?igshMWh4dWk1MmVnMjF1dA" target="_blank" title="Instagram" class="ig"><i class="fab fa-instagram"></i> Instagram</a>
+            <a href="https://www.tiktok.com/@samhlecakes" title="TikTok" class="tik"><i class="fab fa-tiktok"></i> TikTok</a>
+            <a href="https://wa.me/27814057809" target="_blank" title="WhatsApp" class="ig"><i class="fab fa-whatsapp"></i>WhatsApp</a>
+
+          </div>
+          <p>&copy; 2025 Samhle Deserts. All rights reserved.</p>
+        </footer>
+        </section>
+
+
+
+        </div>
+       </div>
+      </footer>
+      </html>
+
+  
+
+    
